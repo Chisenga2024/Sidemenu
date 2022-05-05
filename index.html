@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<htm>
+<head>
+
+    <title>Menu</title>
+
+    <style>
+
+        .menu{
+            display: block;
+            position: absolute;
+            background-color: rgb(97, 97, 235);
+            height: 99%;
+            top: 0px;
+            left: 0px;
+            
+            
+        }
+
+        .menu-items{
+            display: block;
+            text-align: center;
+            padding: 15px 35px 15px 35px;
+            position: relative; 
+            
+               
+            
+        }
+
+        .menu-items:hover{
+            background-color: rgb(133, 181, 204);
+        }
+
+
+        .dropdown{
+            
+                display: none;
+                background-color: rgb(133, 181, 204);
+                position: absolute;
+                top: 0px;
+                left: 120px;
+                float: right;
+                
+
+        }
+
+        
+
+        .menu-items:hover .dropdown{
+                    display: block;
+                    
+                        }
+
+
+        .dropdown-items{
+                padding: 20px 45px 20px 45px;
+                white-space: nowrap;
+                text-align: center;
+                
+
+        }
+
+        .dropdown-items:hover{
+            background-color: Yellow;
+        }
+
+        .dropdown-items a{
+            background-color: none;
+            text-decoration: none;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="menu">
+            <div class="menu-items">Human Body
+                <div class="dropdown">
+                    <div class="dropdown-items">Eyes</a></div>
+
+                    <div class="dropdown-items">Head</a></div>
+
+                    <div class="dropdown-items">Legs</a></div>
+        
+                <div class="dropdown-items">Chest</a></div>
+                </div>
+            </div>
+            
+            <div class="menu-items">Colors
+                <div class="dropdown">
+                    <div class="dropdown-items">Orange</div>
+                    <div class="dropdown-items">Green</div>
+                    <div class="dropdown-items">Blue</div>
+                    <div class="dropdown-items">Purple</div>
+
+                </div>
+            </div>
+
+
+            <div class="menu-items">Teeth
+               <div class="dropdown">
+                    <div class="dropdown-items">Incisors</div>
+                    <div class="dropdown-items">Canines</div>
+                    <div class="dropdown-items">Premolars</div>
+                    <div class="dropdown-items">Molars</div>
+                </div>
+                
+            </div>
+
+    </div>
+
+</body>
+
+</htm>
